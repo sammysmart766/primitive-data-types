@@ -6,11 +6,9 @@
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let newString
+let newString = "Obi is a boy";
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -18,15 +16,13 @@ let newString
 //
 //  Get the data type of the 'getMyDataType' variable and save it into
 //  the variable 'gotDataType'
-let getMyDataType = "This is a string"
+let getMyDataType = "This is a string";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let gotDataType
+let gotDataType = typeof getMyDataType;
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -34,15 +30,13 @@ let gotDataType
 //
 //  Determine the length of the following variable 'getMyLenght', and save
 //  into the variable 'myLength'
-let getMyLenght = "Get the length of this string"
+let getMyLenght = "Get the length of this string";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let myLength
+let myLength = getMyLenght.length;
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -51,17 +45,15 @@ let myLength
 //  Concatenate variables 'concat1', 'concat2', and 'concat3' together
 //  and save the result into 'concatStrings'
 //  NOTE: You can concatenate with + or with an in-built function
-let concat1 = "No Luke, "
-let concat2 = "I am your "
-let concat3 = "father!"
+let concat1 = "No Luke, ";
+let concat2 = "I am your ";
+let concat3 = "father!";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let concatStrings
+let concatStrings = concat1 + concat2 + concat3;
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -70,16 +62,14 @@ let concatStrings
 //  Check if variable 'mainString' contains the 'subString' string
 //  and save the result into 'stringContains'
 //  NOTE: stringContains should be a boolean value of True or False
-let mainString = "Friends are made throughout the day"
-let subString = "out"
+let mainString = "Friends are made throughout the day";
+let subString = "out";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringContains
+let stringContains = mainString.includes(subString);
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -88,16 +78,16 @@ let stringContains
 //  Check if variable 'mainStringIgnoreCase' contains the 'subStringIgnoreCase'
 //  string ignoring case, and save the result into 'stringContainsIgnoreCase'
 //  NOTE: stringContainsIgnoreCase should be a boolean value of True or False
-let mainStringIgnoreCase = "Friends are made throughout the day"
-let subStringIgnoreCase = "friends"
+let mainStringIgnoreCase = "Friends are made throughout the day";
+let subStringIgnoreCase = "friends";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringContainsIgnoreCase
+let stringContainsIgnoreCase = mainStringIgnoreCase
+  .toLowerCase()
+  .includes(subStringIgnoreCase.toLowerCase());
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -105,15 +95,13 @@ let stringContainsIgnoreCase
 //
 //  Get the first character of 'getFirstCharacter' and save the result
 //  into 'firstCharacter'
-let getFirstCharacter = "You need my first character"
+let getFirstCharacter = "You need my first character";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let firstCharacter
+let firstCharacter = getFirstCharacter[0];
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -121,15 +109,13 @@ let firstCharacter
 //
 //  Get the first four character of 'getFirstFourCharacters' and save the result
 //  into 'firstFourCharacters'
-let getFirstFourCharacters = "You need my first four characters"
+let getFirstFourCharacters = "You need my first four characters";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let firstFourCharacters
+let firstFourCharacters = getFirstFourCharacters.slice(0, 4);
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -137,15 +123,13 @@ let firstFourCharacters
 //
 //  Get the last character of 'getLastCharacter' and save the result
 //  into 'lastCharacter'
-let getLastCharacter = "You need my last character"
+let getLastCharacter = "You need my last character";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let lastCharacter
+let lastCharacter = getLastCharacter.slice(-1);
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -153,15 +137,13 @@ let lastCharacter
 //
 //  Get the last six character of 'getLastSixCharacters' and save the result
 //  into 'lastSixCharacters'
-let getLastSixCharacters = "You need my last six characters"
+let getLastSixCharacters = "You need my last six characters";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let lastSixCharacters
+let lastSixCharacters = getLastSixCharacters.slice(-6);
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -169,17 +151,15 @@ let lastSixCharacters
 //
 //  Determine if strings 'checkEquality1' and 'checkEquality2' are equal
 //  and save the result into 'stringsAreEqual'
-let checkEquality1 = "Are we equal?"
-let checkEquality2 = "Are we equal?"
+let checkEquality1 = "Are we equal?";
+let checkEquality2 = "Are we equal?";
 //  NOTE: 'stringsAreEqual' should be a boolean value of True or False
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringsAreEqual
+let stringsAreEqual = checkEquality1 === checkEquality2;
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -187,17 +167,16 @@ let stringsAreEqual
 //
 //  Determine if strings 'checkEqualityIgnoreCase1' and 'checkEqualityIgnoreCase2'
 //  are equal, ignoring case, and save the result into 'stringsAreEqualIgnoreCase'
-let checkEqualityIgnoreCase1 = "Are we equal?"
-let checkEqualityIgnoreCase2 = "are we EQUAL?"
+let checkEqualityIgnoreCase1 = "Are we equal?";
+let checkEqualityIgnoreCase2 = "are we EQUAL?";
 //  NOTE: 'stringsAreEqualIgnoreCase' should be a boolean value of True or False
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let stringsAreEqualIgnoreCase
+let stringsAreEqualIgnoreCase =
+  checkEqualityIgnoreCase1.toLowerCase === checkEqualityIgnoreCase2.toLowerCase;
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -205,15 +184,14 @@ let stringsAreEqualIgnoreCase
 //
 //  Replace all occurences of "John" with "Michael" in 'replaceMe' and save
 //  the result into 'replacedString'
-let replaceMe = "John just moved to Montreal. John will be meeting his roomate soon."
+let replaceMe =
+  "John just moved to Montreal. John will be meeting his roomate soon.";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let replacedString
+let replacedString = replaceMe.replaceAll("John", "Michael");
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -222,54 +200,51 @@ let replacedString
 //  Remove 'going to' from the string 'removeMe' so that is makes sense
 //  and save the result into removedString
 //  Note: You can use the replace function to do so
-let removeMe = "We will going to be leaving at noon sharp."
+let removeMe = "We will going to be leaving at noon sharp.";
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-let removedString
+let removedString = removeMe.replaceAll("going to ", "");
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
 //  EXERCISE 15 - MULTIPLE MANIPULATIONS 1
 //
 //  Turn 'testString1':
-let testString1 = "The quick brown fox jumps over the lazy dog"
+let testString1 = "The quick brown fox jumps over the lazy dog";
 //  into 'targetString1':
-let targetString1 = "THE-QUICK-BROWN-FOX-JUMPS-OVER-THE-LAZY-DOG"
+let targetString1 = "THE-QUICK-BROWN-FOX-JUMPS-OVER-THE-LAZY-DOG";
 //  NOTE: Only add functions to testString1 and do not create any new variables
 //  The tests will check if testString1 is equal to targetString1
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-
+testString1 = testString1.toUpperCase().replaceAll(" ", "-");
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
 //  EXERCISE 16 - MULTIPLE MANIPULATIONS 2
 //
 //  Turn 'testString2':
-let testString2 = "I am the first sentence. You are the second sentence"
+let testString2 = "I am the first sentence. You are the second sentence";
 //  into 'targetString2':
-let targetString2 = "i am the second best, you are the first best!"
+let targetString2 = "i am the second best, you are the first best!";
 //  Only add functions to testString2 and do not create any new variables
 //  The tests will check if testString2 is equal to targetString2
 //  Hint: There is more than one way to solve this - be creative!
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-
+testString2 = testString2
+  .toLowerCase()
+  .replaceAll("first sentence.", "second best,")
+  .replaceAll("second sentence", "first best!");
 
 ////////////////////////////////////////////////////////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -280,20 +255,17 @@ let targetString2 = "i am the second best, you are the first best!"
 //  strings you can add the backwards slash e.g. \" before a character to invoke
 //  an alternative interpretation of the character. This is called
 //  ESCAPING and is used often by programmers
-let escapedString
+let escapedString;
 //   Uncomment the expression below to see the outcome of the printed variable
 //
 ////////////////////// YOUR CODE BELOW THIS LINE ///////////////////////
 
-// escapedString = "My professor said: \"Study hard and you will succeed\" \nI replied: \"Thanks for the tip!\""
+escapedString =
+  'My professor said: "Study hard and you will succeed" \nI replied: "Thanks for the tip!"';
 
 ////////////////////////////////////////////////////////////////////////
 
-
-
 /////////////////////// END OF STRINGS EXERCISES ///////////////////////
-
-
 
 ////////////////////////////////////////////////////////////////////////
 //
@@ -312,192 +284,414 @@ let escapedString
 ////////////////////////////////////////////////////////////////////////
 
 // setGreen instructs the shell to set the printed output to green
-let setGreen = "\x1b[32m"
+let setGreen = "\x1b[32m";
 // setRed instructs the shell to set the printed output to red
-let setRed = "\x1b[31m"
+let setRed = "\x1b[31m";
 // resetColor instructs the shell to reset the printout color to standard
-let resetColor = "\x1b[0m"
+let resetColor = "\x1b[0m";
 
 // Set correctMsg and incorrectMsg Messages so I don't need to write it everytimne
-let correctMsg = setGreen + "Correct! " + resetColor
-let incorrectMsg = setRed + "Incorrect! " + resetColor
+let correctMsg = setGreen + "Correct! " + resetColor;
+let incorrectMsg = setRed + "Incorrect! " + resetColor;
 
 // totalTests and passedTests count the final tally of passed tests
-let totalTests = 0
-let passedTests = 0
+let totalTests = 0;
+let passedTests = 0;
 
 // String Initialization
 if (newString !== undefined && newString.length > 0) {
-  console.log(correctMsg + "The initialized 'newString' string says '" + newString + "'")
-  passedTests++
+  console.log(
+    correctMsg + "The initialized 'newString' string says '" + newString + "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The initialized 'newString' should be defined and have a length of more than 0, but yours is '" + newString + "'")
+  console.log(
+    incorrectMsg +
+      "The initialized 'newString' should be defined and have a length of more than 0, but yours is '" +
+      newString +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Type Of
-let correctGotDataType = typeof getMyDataType
+let correctGotDataType = typeof getMyDataType;
 if (gotDataType !== undefined && gotDataType === correctGotDataType) {
-  console.log(correctMsg + "The data type saved into 'gotDataType' you got was '" + gotDataType + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "The data type saved into 'gotDataType' you got was '" +
+      gotDataType +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The value of the 'gotDataType' variable should be '" + correctGotDataType + "' but you got '" + gotDataType + "'")
+  console.log(
+    incorrectMsg +
+      "The value of the 'gotDataType' variable should be '" +
+      correctGotDataType +
+      "' but you got '" +
+      gotDataType +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Length
-let correctLength = getMyLenght.length
+let correctLength = getMyLenght.length;
 if (myLength !== undefined && myLength === correctLength) {
-  console.log(correctMsg + "The length of the 'getMyLenght' variable you got was: " + myLength)
-  passedTests++
+  console.log(
+    correctMsg +
+      "The length of the 'getMyLenght' variable you got was: " +
+      myLength,
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The length of the 'getMyLenght' variable should be " + correctLength + " but you got " + myLength)
+  console.log(
+    incorrectMsg +
+      "The length of the 'getMyLenght' variable should be " +
+      correctLength +
+      " but you got " +
+      myLength,
+  );
 }
-totalTests++
+totalTests++;
 
 // String Concatenation
-let correctConcat = concat1.concat(concat2, concat3)
+let correctConcat = concat1.concat(concat2, concat3);
 if (concatStrings !== undefined && concatStrings === correctConcat) {
-  console.log(correctMsg + "The value of 'concatStrings' you got was: '" + concatStrings + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "The value of 'concatStrings' you got was: '" +
+      concatStrings +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The value of the 'concatStrings' variable should be '" + correctConcat + "' but you got '" + concatStrings + "'")
+  console.log(
+    incorrectMsg +
+      "The value of the 'concatStrings' variable should be '" +
+      correctConcat +
+      "' but you got '" +
+      concatStrings +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Contains
-let correctContains = mainString.includes(subString)
+let correctContains = mainString.includes(subString);
 if (stringContains !== undefined && stringContains === correctContains) {
-  console.log(correctMsg + "The value of 'stringContains' you got was: " + stringContains)
-  passedTests++
+  console.log(
+    correctMsg + "The value of 'stringContains' you got was: " + stringContains,
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The value of the 'stringContains' variable should be " + correctContains + " but you got " + stringContains)
+  console.log(
+    incorrectMsg +
+      "The value of the 'stringContains' variable should be " +
+      correctContains +
+      " but you got " +
+      stringContains,
+  );
 }
-totalTests++
+totalTests++;
 
 // String Contains Ignore Case
-let correctContainsIgnoreCase = mainStringIgnoreCase.toLowerCase().includes(subStringIgnoreCase.toLowerCase())
-if (stringContainsIgnoreCase !== undefined && stringContainsIgnoreCase === correctContainsIgnoreCase) {
-  console.log(correctMsg + "The value of 'stringContainsIgnoreCase' you got was: " + stringContainsIgnoreCase)
-  passedTests++
+let correctContainsIgnoreCase = mainStringIgnoreCase
+  .toLowerCase()
+  .includes(subStringIgnoreCase.toLowerCase());
+if (
+  stringContainsIgnoreCase !== undefined &&
+  stringContainsIgnoreCase === correctContainsIgnoreCase
+) {
+  console.log(
+    correctMsg +
+      "The value of 'stringContainsIgnoreCase' you got was: " +
+      stringContainsIgnoreCase,
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The value of the 'stringContainsIgnoreCase' variable should be " + correctContainsIgnoreCase + " but you got " + stringContainsIgnoreCase)
+  console.log(
+    incorrectMsg +
+      "The value of the 'stringContainsIgnoreCase' variable should be " +
+      correctContainsIgnoreCase +
+      " but you got " +
+      stringContainsIgnoreCase,
+  );
 }
-totalTests++
+totalTests++;
 
 // String First Character
-let correctFirstCharacter = getFirstCharacter.charAt(0)
+let correctFirstCharacter = getFirstCharacter.charAt(0);
 if (firstCharacter !== undefined && firstCharacter === correctFirstCharacter) {
-  console.log(correctMsg + "The first character of 'getFirstCharacter' you got was: '" + firstCharacter + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "The first character of 'getFirstCharacter' you got was: '" +
+      firstCharacter +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The first character of 'getFirstCharacter' should be '" + correctFirstCharacter + "' but you got '" + firstCharacter + "'")
+  console.log(
+    incorrectMsg +
+      "The first character of 'getFirstCharacter' should be '" +
+      correctFirstCharacter +
+      "' but you got '" +
+      firstCharacter +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String First Four Characters
-let correctFirstFourCharacters = getFirstFourCharacters.substring(0,4)
-if (firstFourCharacters !== undefined && firstFourCharacters === correctFirstFourCharacters) {
-  console.log(correctMsg + "The first four characters of 'getFirstFourCharacter' you got was: '" + firstFourCharacters + "'")
-  passedTests++
+let correctFirstFourCharacters = getFirstFourCharacters.substring(0, 4);
+if (
+  firstFourCharacters !== undefined &&
+  firstFourCharacters === correctFirstFourCharacters
+) {
+  console.log(
+    correctMsg +
+      "The first four characters of 'getFirstFourCharacter' you got was: '" +
+      firstFourCharacters +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The first four characters of 'getFirstFourCharacter' should be '" + correctFirstFourCharacters + "' but you got '" + firstFourCharacters + "'")
+  console.log(
+    incorrectMsg +
+      "The first four characters of 'getFirstFourCharacter' should be '" +
+      correctFirstFourCharacters +
+      "' but you got '" +
+      firstFourCharacters +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Last Character
-let correctLastCharacter = getLastCharacter.charAt(getLastCharacter.length - 1)
+let correctLastCharacter = getLastCharacter.charAt(getLastCharacter.length - 1);
 if (lastCharacter !== undefined && lastCharacter === correctLastCharacter) {
-  console.log(correctMsg + "The last character of 'getLastCharacter' you got was: '" + lastCharacter + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "The last character of 'getLastCharacter' you got was: '" +
+      lastCharacter +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The last character of 'getLastCharacter' should be '" + correctLastCharacter + "' but you got '" + lastCharacter + "'")
+  console.log(
+    incorrectMsg +
+      "The last character of 'getLastCharacter' should be '" +
+      correctLastCharacter +
+      "' but you got '" +
+      lastCharacter +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Last Six Characters
-let correctLastSixCharacters = getLastSixCharacters.substring(getLastSixCharacters.length - 6)
-if (lastSixCharacters !== undefined && lastSixCharacters === correctLastSixCharacters) {
-  console.log(correctMsg + "The last six characters of 'getLastSixCharacters' you got was: '" + lastSixCharacters + "'")
-  passedTests++
+let correctLastSixCharacters = getLastSixCharacters.substring(
+  getLastSixCharacters.length - 6,
+);
+if (
+  lastSixCharacters !== undefined &&
+  lastSixCharacters === correctLastSixCharacters
+) {
+  console.log(
+    correctMsg +
+      "The last six characters of 'getLastSixCharacters' you got was: '" +
+      lastSixCharacters +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The last six characters of 'getLastSixCharacters' should be '" + correctLastSixCharacters + "' but you got '" + lastSixCharacters + "'")
+  console.log(
+    incorrectMsg +
+      "The last six characters of 'getLastSixCharacters' should be '" +
+      correctLastSixCharacters +
+      "' but you got '" +
+      lastSixCharacters +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Equals
-let correctStringEquals = checkEquality1 === checkEquality2
+let correctStringEquals = checkEquality1 === checkEquality2;
 if (stringsAreEqual !== undefined && stringsAreEqual === correctStringEquals) {
-  console.log(correctMsg + "As for strings 'checkEquality1' and 'checkEquality1' being equal, you said this was: " + stringsAreEqual)
-  passedTests++
+  console.log(
+    correctMsg +
+      "As for strings 'checkEquality1' and 'checkEquality1' being equal, you said this was: " +
+      stringsAreEqual,
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "As for strings 'checkEquality1' and 'checkEquality1' being equal, this should be " + correctStringEquals + " but you got " + stringsAreEqual)
+  console.log(
+    incorrectMsg +
+      "As for strings 'checkEquality1' and 'checkEquality1' being equal, this should be " +
+      correctStringEquals +
+      " but you got " +
+      stringsAreEqual,
+  );
 }
-totalTests++
+totalTests++;
 
 // String Equals Ignore Case
-let correctStringEqualsIgnoreCase = checkEqualityIgnoreCase1.toLowerCase() === checkEqualityIgnoreCase2.toLowerCase()
-if (stringsAreEqualIgnoreCase !== undefined && stringsAreEqualIgnoreCase === correctStringEqualsIgnoreCase) {
-  console.log(correctMsg + "As for strings 'checkEqualityIgnoreCase1' and 'checkEqualityIgnoreCase2' being equal ignoring case, you said this was: " + stringsAreEqualIgnoreCase)
-  passedTests++
+let correctStringEqualsIgnoreCase =
+  checkEqualityIgnoreCase1.toLowerCase() ===
+  checkEqualityIgnoreCase2.toLowerCase();
+if (
+  stringsAreEqualIgnoreCase !== undefined &&
+  stringsAreEqualIgnoreCase === correctStringEqualsIgnoreCase
+) {
+  console.log(
+    correctMsg +
+      "As for strings 'checkEqualityIgnoreCase1' and 'checkEqualityIgnoreCase2' being equal ignoring case, you said this was: " +
+      stringsAreEqualIgnoreCase,
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "As for strings 'checkEqualityIgnoreCase1' and 'checkEqualityIgnoreCase2' being equal ignoring case, this should be " + correctStringEqualsIgnoreCase + " but you got " + stringsAreEqualIgnoreCase)
+  console.log(
+    incorrectMsg +
+      "As for strings 'checkEqualityIgnoreCase1' and 'checkEqualityIgnoreCase2' being equal ignoring case, this should be " +
+      correctStringEqualsIgnoreCase +
+      " but you got " +
+      stringsAreEqualIgnoreCase,
+  );
 }
-totalTests++
+totalTests++;
 
 // String Replace
-let correctReplace = replaceMe.replace(/John/g, "Michael")
+let correctReplace = replaceMe.replace(/John/g, "Michael");
 if (replacedString !== undefined && replacedString === correctReplace) {
-  console.log(correctMsg + "After replacing John with Michael, your 'replacedString' looks like: '" + replacedString + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "After replacing John with Michael, your 'replacedString' looks like: '" +
+      replacedString +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "After replacing John with Michael, your 'replacedString' should be '" + correctReplace + "' but you got '" + replacedString + "'")
+  console.log(
+    incorrectMsg +
+      "After replacing John with Michael, your 'replacedString' should be '" +
+      correctReplace +
+      "' but you got '" +
+      replacedString +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // String Remove
-let correctRemove = removeMe.replace("going to ", "")
+let correctRemove = removeMe.replace("going to ", "");
 if (removedString !== undefined && removedString === correctRemove) {
-  console.log(correctMsg + "After removing \"going to\" from 'removeMe' your 'removedString' looks like: '" + removedString + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "After removing \"going to\" from 'removeMe' your 'removedString' looks like: '" +
+      removedString +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "After removing \"going to\" from 'removeMe' your 'removedString' should be '" + correctRemove + "' but you got '" + removedString + "'")
+  console.log(
+    incorrectMsg +
+      "After removing \"going to\" from 'removeMe' your 'removedString' should be '" +
+      correctRemove +
+      "' but you got '" +
+      removedString +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // Multiple Manipulations 1
 // Since we already have a target string, we don't need to create a correct test variable
 if (testString1 === targetString1) {
-  console.log(correctMsg + "After your manipulations to 'testString1', it now looks like: '" + testString1 + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "After your manipulations to 'testString1', it now looks like: '" +
+      testString1 +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "After your manipulations to 'testString1', it should be '" + targetString1 + "' but you got '" + testString1 + "'")
+  console.log(
+    incorrectMsg +
+      "After your manipulations to 'testString1', it should be '" +
+      targetString1 +
+      "' but you got '" +
+      testString1 +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // Multiple Manipulations 2
 // Since we already have a target string, we don't need to create a correct test variable
 if (testString2 === targetString2) {
-  console.log(correctMsg + "After your manipulations to 'testString2', it now looks like: '" + targetString2 + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "After your manipulations to 'testString2', it now looks like: '" +
+      targetString2 +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "After your manipulations to 'testString2', it should be '" + targetString2 + "' but you got '" + testString2 + "'")
+  console.log(
+    incorrectMsg +
+      "After your manipulations to 'testString2', it should be '" +
+      targetString2 +
+      "' but you got '" +
+      testString2 +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // Escaped String
-let correctEscapedString = "My professor said: \"Study hard and you will succeed\" \nI replied: \"Thanks for the tip!\""
+let correctEscapedString =
+  'My professor said: "Study hard and you will succeed" \nI replied: "Thanks for the tip!"';
 if (escapedString !== undefined && escapedString === correctEscapedString) {
-  console.log(correctMsg + "The 'escapedString' with escaped quotes looks like: \n'" + escapedString + "'")
-  passedTests++
+  console.log(
+    correctMsg +
+      "The 'escapedString' with escaped quotes looks like: \n'" +
+      escapedString +
+      "'",
+  );
+  passedTests++;
 } else {
-  console.log(incorrectMsg + "The 'escapedString' with escaped quotes should be:\n'" + correctEscapedString + "'\n but you got '" + escapedString + "'")
+  console.log(
+    incorrectMsg +
+      "The 'escapedString' with escaped quotes should be:\n'" +
+      correctEscapedString +
+      "'\n but you got '" +
+      escapedString +
+      "'",
+  );
 }
-totalTests++
+totalTests++;
 
 // Final Test Tally Determination
 if (passedTests === totalTests) {
-  console.log(setGreen + "You passed " + passedTests + " / " + totalTests + " tests. Congratulations!" + resetColor)
+  console.log(
+    setGreen +
+      "You passed " +
+      passedTests +
+      " / " +
+      totalTests +
+      " tests. Congratulations!" +
+      resetColor,
+  );
 } else {
-  console.log(setRed + "You passed " + passedTests + " / " + totalTests + " tests. Keep Going!" + resetColor)
+  console.log(
+    setRed +
+      "You passed " +
+      passedTests +
+      " / " +
+      totalTests +
+      " tests. Keep Going!" +
+      resetColor,
+  );
 }
