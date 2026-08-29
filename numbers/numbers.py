@@ -6,7 +6,7 @@
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-newInteger = None
+newInteger = 855
 
 ########################################################################
 
@@ -20,7 +20,7 @@ newInteger = None
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-newFloat = None
+newFloat = 85.5
 
 ########################################################################
 
@@ -37,7 +37,7 @@ integer1 = "Not an integer"
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-integer1IsInteger = None
+integer1IsInteger = type(integer1) == int 
 
 ########################################################################
 
@@ -54,7 +54,7 @@ float1 = 45.6
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-float1IsFloat = None
+float1IsFloat = type(float1) == float
 
 ########################################################################
 
@@ -70,7 +70,7 @@ getMyAbsoluteValue = -64.4
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-absoluteValue = None
+absoluteValue = abs(getMyAbsoluteValue)
 
 ########################################################################
 
@@ -89,7 +89,7 @@ import math
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-roundedUpNumber = None
+roundedUpNumber = math.ceil(roundMeUp)
 
 ########################################################################
 
@@ -107,7 +107,7 @@ roundMeDown = 85.4
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-roundedDownNumber = None
+roundedDownNumber = math.floor(roundMeDown)
 
 ########################################################################
 
@@ -124,7 +124,7 @@ powerNumber = 5
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-baseToThePower = None
+baseToThePower = baseNumber ** powerNumber
 
 ########################################################################
 
@@ -141,7 +141,9 @@ maxValue = 35
 #
 ###################### YOUR CODE BELOW THIS LINE #######################
 
-scorePercentage = None
+rawpercentage = (scoreValue / maxValue) * 100
+
+scorePercentage = round(rawpercentage, 3)
 
 ########################################################################
 
@@ -158,7 +160,7 @@ score = 145
 #
 ###################### YOUR CODE BELOW THIS LINE ######################
 
-scoreMessage = None
+scoreMessage = messagePrefix + ' ' + str(score)
 
 ########################################################################
 
@@ -177,7 +179,9 @@ import re
 #
 ###################### YOUR CODE BELOW THIS LINE ######################
 
-parsedNumber = None
+match = re.search(r"[0-9.]+", parseTheNumber)
+
+parsedNumber = float(match.group())
 
 ########################################################################
 
